@@ -1,0 +1,29 @@
+@import "../../index.less";
+.textareabox {
+  height: 8rem;
+  position: relative;
+  border: @border-base;
+  border-radius: 3px;
+  .area {
+    width: 100%;
+    height: 85%;
+    background-color: transparent !important;
+    border: none !important;
+    margin-bottom: 0 !important;
+  }
+  .area:focus {
+    box-shadow: none !important;
+  }
+  .textareaLength {
+    width: 5rem;
+    height: 1rem;
+    position: absolute;
+    top: 6.7rem;
+    right: 0.5rem;
+    line-height: 1rem;
+    font-size: @font-size-base;
+    font-weight: 400;
+    color: @font-color-base;
+    text-align: right;
+  }
+}

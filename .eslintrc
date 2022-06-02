@@ -1,0 +1,42 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "eqeqeq": "off", // 关闭===代替==的告警
+    "no-script-url": "off", // 关闭a标签href无url的告警
+    "array-callback-return": "off", // 关闭数组函数没有return的告警
+    "jsx-a11y/anchor-is-valid": "off", // 关闭jsx a标签无效的告警
+    "jsx-a11y/anchor-has-content": "off", // 关闭jsx a标签无内容的告警
+    "no-unused-vars": [
+      "off",
+      {
+        // 允许声明未使用变量
+        "vars": "local",
+        // 参数不检查
+        "args": "none"
+      }
+    ],
+    //空行最多不能超过100行
+    "no-multiple-empty-lines": [
+      "off",
+      {
+        "max": 100
+      }
+    ],
+    // 关闭语句强制分号结尾
+    "semi": [
+      0
+    ],
+    "no-console": "off",
+    "valid-jsdoc": "off",
+    // warn:11 - 15 ,error:> 15 
+    "complexity": [
+      "warn",
+      {
+        "max": 100
+      }
+    ],
+    "callback-return":"off",
+    "default-case":"off"
+  }
+}

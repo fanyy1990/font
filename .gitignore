@@ -1,0 +1,26 @@
+coverage
+dist
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+.github
+/nginx/html
+# ide
+.idea
+.history
+
+# umi
+.umi
+.umi-production
+
+# jslingui
+src/locales/_build
+src/locales/**/*.js
+
+#map
+public/map/tiles*
+
+#sonar
+/.scannerwork*
